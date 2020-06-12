@@ -9,5 +9,9 @@ use-tabs: false
 enabled:
 
 disabled:
+    - unused_use
 
 finder:
+    not-name:
+        - index.php
+        - server.php
