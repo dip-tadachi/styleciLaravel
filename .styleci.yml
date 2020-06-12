@@ -1,13 +1,17 @@
-php:
-  preset: laravel
-  disabled:
+preset: laravel
+
+risky: false
+
+tab-width: 4
+
+use-tabs: false
+
+enabled:
+
+disabled:
     - unused_use
-  finder:
+
+finder:
     not-name:
-      - index.php
-      - server.php
-#js:
-#  finder:
-#    not-name:
-#      - webpack.mix.js
-#css: true
+        - index.php
+        - server.php
