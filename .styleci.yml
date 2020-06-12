@@ -7,9 +7,11 @@ tab-width: 4
 use-tabs: false
 
 enabled:
+    - psr12_braces
 
 disabled:
     - unused_use
+    - psr2_braces
 
 finder:
     not-name:
